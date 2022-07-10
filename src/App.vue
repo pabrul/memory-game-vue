@@ -49,9 +49,9 @@ export default {
 <style>
 .game-board {
   display: grid;
+  grid-column-gap: 30px;
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px 100px;
-  grid-column-gap: 30px;
   justify-content: center;
 }
 </style>
